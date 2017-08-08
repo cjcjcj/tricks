@@ -1,6 +1,6 @@
 def nested_to_flat(l):
     for el in l:
-        if type(el) == type([]):
+        if isinstance(el, list):
             yield from nested_to_flat(el)
         else:
             yield el
