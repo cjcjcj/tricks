@@ -15,3 +15,6 @@ List with an arbitrary depth to flat
 [pairwise_gen.py](pairwise_gen.py)  
 `[1, 2, 3, 4, 5] -> [(1, 2), (2, 3), (3, 4), (4, 5)]`  
 `[1, 2, 3, 4, 5] -> [(1, 2), (2, 3), (3, 4), (4, 5), (5, None)]`  
+
+[generator_length.py](generator_length.py)
+Length of generator sequence
