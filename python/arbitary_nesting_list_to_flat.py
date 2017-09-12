@@ -18,7 +18,7 @@ def __reasonable(el):
 def nested_to_flat(l, predicate=__reasonable):
     for el in l:
         if predicate(el):
-            yield from nested_to_flat(el)
+            yield from nested_to_flat(el, predicate=predicate)
         else:
             yield el
 
