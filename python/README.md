@@ -18,3 +18,9 @@ List with an arbitrary depth to flat
 
 [generator_length.py](generator_length.py)
 Length of generator sequence
+
+
+[zip_string.py](zip_string.py)  
+`'AABCCCDDDD' -> A2BC3D4`
+`'A' -> 'A'`
+`'AA' -> 'A2'`
